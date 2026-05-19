@@ -4,7 +4,7 @@
 
 ### 1. Install dependencies
 ```bash
-npm install
+npm install --legacy-peer-deps
 ```
 
 ### 2. Buat file `.env` di root project
