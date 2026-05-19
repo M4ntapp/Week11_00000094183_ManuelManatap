@@ -177,7 +177,7 @@ export default function Index() {
             initialRegion={region}
             onPress={(e) => setMarkerPos(e.nativeEvent.coordinate)}
           >
-            <UrlTile urlTemplate="https://tile.openstreetmap.org/{z}/{x}/{y}.png" />
+            <UrlTile urlTemplate="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             {markerPos && (
               <Marker
                 coordinate={markerPos}
